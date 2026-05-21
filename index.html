@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的AI工具箱</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== 个人简介区 ===================== -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="avatar-wrap">
+        <img
+          id="avatar"
+          src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix"
+          alt="头像"
+          class="avatar"
+        />
+      </div>
+      <div class="hero-text">
+        <h1 id="name">你的名字</h1>
+        <p id="tagline" class="tagline">一句话介绍你自己</p>
+        <div id="social-links" class="social-links"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== 工具卡片区 ===================== -->
+  <main class="container">
+    <div class="section-header">
+      <h2>🧭 AI工具导航</h2>
+      <span id="tool-count" class="tool-count"></span>
+    </div>
+
+    <!-- 分类标签 -->
+    <div id="category-filters" class="category-filters"></div>
+
+    <!-- 工具网格 -->
+    <div id="tool-grid" class="tool-grid"></div>
+  </main>
+
+  <!-- ===================== 页脚 ===================== -->
+  <footer class="footer">
+    <p>Made with ❤️ &amp; AI &mdash; <a href="https://vercel.com" target="_blank" rel="noopener">部署在 Vercel</a></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
