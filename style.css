@@ -304,3 +304,8 @@ img { display: block; max-width: 100%; }
 .search-input { width: 100%; padding: 10px 16px; border: 1.5px solid var(--border); border-radius: var(--r); font-size: 14px; outline: none; transition: border-color 0.2s; }
 .search-input:focus { border-color: var(--accent); }
 
+/* === V1.0 版本标记 === */
+.version-badge { position: absolute; top: 16px; right: 20px; background: var(--accent); color: #fff; font-size: 11px; padding: 3px 8px; border-radius: 20px; font-weight: 600; opacity: 0.85; }
+.header-meta { display: flex; align-items: center; gap: 10px; }
+.version-badge-inline { background: var(--tag-bg); color: var(--tag-text); font-size: 11px; padding: 2px 8px; border-radius: 20px; font-weight: 600; }
+

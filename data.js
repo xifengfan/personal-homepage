@@ -137,5 +137,27 @@ const toolsData = [
     tags: ["免费", "语音合成", "多语言"],
     isFeatured: false,
     createdAt: "2026-05-20T00:00:00Z"
+  },
+  {
+    id: "openai-o3-001",
+    name: "GPT-4o",
+    description: "OpenAI最新多模态大模型，支持图像理解、语音交互与高级推理",
+    category: "对话助手",
+    icon: "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    url: "https://chatgpt.com",
+    tags: ["免费", "多模态", "GPT-4"],
+    isFeatured: true,
+    createdAt: "2026-05-23T00:00:00Z"
+  },
+  {
+    id: "openai-o3-002",
+    name: "OpenAI o3",
+    description: "OpenAI最新推理模型，ARC-AGI基准测试最高分，擅长复杂推理与代码生成",
+    category: "对话助手",
+    icon: "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    url: "https://openai.com/index/openai-o3",
+    tags: ["付费", "推理", "前沿"],
+    isFeatured: true,
+    createdAt: "2026-05-23T00:00:00Z"
   }
 ];
